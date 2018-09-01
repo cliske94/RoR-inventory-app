@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Was causing problems with heroku
+/vendor/bundle
