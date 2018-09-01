@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
 ruby "2.4.4"
-gem 'pg', '1.1.2'
+gem 'pg'
 
 
 
