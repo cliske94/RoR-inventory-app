@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.8'
 gem 'bundler', '1.16.4'
 ruby "2.4.4"
+gem 'pg', '1.1.2'
 
 
 
@@ -45,7 +46,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
@@ -54,6 +55,6 @@ group :production do
 
 gem 'rails_12factor'
 gem 'puma'
-gem 'pg'
+
 end
 
