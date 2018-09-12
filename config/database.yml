@@ -29,3 +29,7 @@ production:
 inventories:
   <<: *default
   database: db/inventories
+  
+items:
+  <<: *default
+  database: db/items
