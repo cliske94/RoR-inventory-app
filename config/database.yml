@@ -25,3 +25,7 @@ test:
 production:
   <<: *default
   database: db/production
+  
+inventories:
+  <<: *default
+  database: db/inventories
