@@ -16,6 +16,6 @@
 responsive.css
 
 body {
-  background: green img('../../dragon.jpg') repeat right top;
+  background: green img('../../dragon.jpg');
   
 };
