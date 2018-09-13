@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-responsive.css
+/*responsive.css*/
 
 body {
   background: green img('../../dragon.jpg');
