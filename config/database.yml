@@ -33,3 +33,7 @@ inventories:
 items:
   <<: *default
   database: db/items
+  
+blog_posts:
+  <<: *default
+  database: db/BlogPost

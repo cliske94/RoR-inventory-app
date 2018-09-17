@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :blog_posts
+  resources :blog_posts
   resources :items
   resources :inventories
   resources :inventories
@@ -21,6 +23,7 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
   get 'tools/inventory', to: 'tools#inventory'
+ 
   
   
   # Example resource route with options:

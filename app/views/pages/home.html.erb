@@ -8,10 +8,13 @@
         Click the <%= link_to 'link', 'about'  %> to learn more about us! 
       </p>
       <p style = "font-size:2em; font-weight:bold; border-radius:10px; border:dashed 3px; background-color:white; padding:25px 25px 25px 25px; margin:20px 25% 40px 25%">
-        Below is a portal interface to our inventory system
+        Below is a portal interface to our various services
         <ul style = "list-style-type:none">
-          <li style = "margin-right:75%; background-color:lightgreen; border:solid 2px red; font-size:1.5em; font-weight:bold; padding:15px 15px 15px 15px"><%= link_to 'Inventory Software', "items/new" %></li>
-      </ul>
+          <li style = "margin-right:75%; border-radius:25%; background-color:lightgreen; border:solid 2px red; font-size:1.5em; font-weight:bold; padding:15px 15px 15px 15px"><%= link_to 'Inventory Software', "items/new" %></li>
+          <div style = "padding-top:25px">
+          <li style = "margin-right: 75%; background-color:lightgreen; border:solid 2px red; border-radius:25%; font-weight:bold; padding: 15px 15px 15px 15px"<%= link_to 'Blog', "blog_posts/new" %></li>
+          </div>
+            </ul>
       </p>
   </body>
 </html>
