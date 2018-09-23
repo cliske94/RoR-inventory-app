@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html>
+  <head>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  </head>
   <body>
+    
+    <div class = "styling">
+      
     <h1 style = "text-align:center; font-size:1.75em; color:white">
-      Welcome to our home page!
+      This is the application homepage
     </h1>
       <p style = "font-size:1.2em; font-style:italic; text-align:center; background-color:white; margin:0px 35% 0px 35%; border-radius: 45%">
-        Click the <%= link_to 'link', 'about'  %> to learn more about us! 
+        Click the <%= link_to 'link', 'about'  %> to examine the documentation! 
       </p>
       <p style = "font-size:2em; font-weight:bold; border-radius:10px; border:dashed 3px; background-color:white; padding:25px 25px 25px 25px; margin:20px 25% 40px 25%">
         Below is a portal interface to our various services
         <ul style = "list-style-type:none">
-          <li style = "margin-right:75%; border-radius:25%; background-color:lightgreen; border:solid 2px red; font-size:1.5em; font-weight:bold; padding:15px 15px 15px 15px"><%= link_to 'Inventory Software', "items/new" %></li>
+          <li style = "padding:left=25px;margin-right:75%; border-radius:50%; background-color:lightgreen; border:solid 2px red; font-size:1.5em; font-weight:bold; padding:15px 15px 15px 15px"><%= link_to 'Inventory Software', "items/new" %></li>
           <div style = "padding-top:25px">
-          <li style = "margin-right: 75%; background-color:lightgreen; border:solid 2px red; border-radius:25%; font-weight:bold; padding: 15px 15px 15px 15px"><%= link_to 'Blog', "blog_posts" %></li>
+          <li style = "margin-right: 75%; background-color:lightgreen; border:solid 2px red; border-radius:50%; font-weight:bold; padding: 15px 15px 15px 15px"><%= link_to 'Blog', "blog_posts" %></li>
           </div>
             </ul>
       </p>
+    <div class="wrap">
+  <div class="col-1"></div>
+  <div class="col-1"></div>
+  <div class="col-1"></div>
+  <div class="col-1"></div>
+  <div class="col-1"></div>
+  <div class="col-2"></div>
+  <div class="col-2"></div>
+  <div class="col-2"></div>
+  <div class="col-2"></div>
+  <div class="col-2"></div>
+</div>
+    <div id="news" >
+      <p>
+        Company Bulletin Board
+        <ol>
+          <li>September 21, 2018<p style="text-align:left">
+            This is the first company update
+            </p></li>
+      </ol>
+      </p>
+    </div>
+    </div>
   </body>
 </html>
