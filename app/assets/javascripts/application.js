@@ -16,6 +16,6 @@
 //= require turbolinks
 //= require_tree .
 // Set vars for column content
-//= require_self
+// require_self
 //=
 

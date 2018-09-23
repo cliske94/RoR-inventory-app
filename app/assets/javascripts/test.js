@@ -1,10 +1,7 @@
-//= require_self
-//= require_tree
-//= require_directory
 
-$(document).ready(
-function function1 () {
- // alert("I'm working!");
+
+  (document).ready(function1());
+    function function1(){
   var colOne = $('.col-1').nextUntil('.col-2').addBack();
   var colTwo = $('.col-2').nextAll().addBack();
 
@@ -27,5 +24,6 @@ function function1 () {
 
 // Add the heights
 $('.wrap').height(colHeight+wrapHeight);
-}
-  );
+
+    }
+    

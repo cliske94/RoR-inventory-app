@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
   </head>
   <body>
     
@@ -33,7 +33,9 @@
   <div class="col-2"></div>
   <div class="col-2"></div>
   <div class="col-2"></div>
-    <div id="news" >
+    </div>
+    <div class="wrap1">
+      <div id="news" >
       <p>
         Company Bulletin Board
         <ol>
@@ -43,7 +45,12 @@
       </ol>
       </p>
     </div>
+  <div id="homepage">
+    <p>
+      This item should be inline with the bulletin board
+    </p>
     </div>
     </div>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   </body>
 </html>
