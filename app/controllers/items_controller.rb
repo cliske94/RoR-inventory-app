@@ -28,6 +28,7 @@ class ItemsController < ApplicationController
 
     respond_to do |format|
       if @item.save
+        flash[:notice] = "Item was successfully saved"
         format.html { redirect_to @item, notice: 'Item was successfully created.' }
         format.json { render :show, status: :created, location: @item }
       else

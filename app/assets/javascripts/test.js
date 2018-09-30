@@ -1,6 +1,6 @@
 
 
-  (document).ready(function1());
+  $(document).ready(function1());
     function function1(){
   var colOne = $('.col-1').nextUntil('.col-2').addBack();
   var colTwo = $('.col-2').nextAll().addBack();
