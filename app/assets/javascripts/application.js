@@ -11,10 +11,14 @@
 // about supported directives.
 //
 //
+
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-sprockets
+
+
 //= require turbolinks
+//= require bootstrap-sprockets
+
 //= require_tree .
 // Set vars for column content
 // require_self

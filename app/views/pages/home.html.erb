@@ -1,56 +1,35 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--<title>Hello, world!</title>-->
   </head>
   <body>
-    
-    <div class = "styling">
-      
-    <h1 style = "text-align:center; font-size:1.75em; color:white">
-      This is where the headline or business name will go
-    </h1>
-      <p style = "font-size:1.2em; font-style:italic; text-align:center; background-color:white; margin:0px 35% 0px 35%; border-radius: 15%">
-        Click the <%= link_to 'link', 'about'  %> to examine the documentation! 
-      </p>
-      <p style = "color:blue; font-size:2em; font-weight:bold; border-radius:10px; border:dashed 3px; background-color:lightgreen; text-align:center; padding:25px 25px 25px 25px; margin:20px 25% 40px 25%">
-        Below is a portal interface to the available services
-        <ul style = "list-style-type:none">
-          <li style = "text-align:center; padding:left=25px; margin-right:75%; border-radius:50%; background-color:lightgreen; border:solid 2px red; font-size:1.5em; font-weight:bold; padding:15px 15px 15px 15px"><%= link_to 'Inventory', "items/new" %></li>
-          <div style = "padding-top:25px">
-          <li style = "font-size:150%; text-align:center; margin-right: 75%; background-color:lightgreen; border:solid 2px red; border-radius:50%; font-weight:bold; padding: 15px 15px 15px 15px"><%= link_to 'Blog', "blog_posts" %></li>
-          </div>
-            </ul>
-      </p>
-    <div class="wrap">
-  <div class="col-1"></div>
-  <div class="col-1"></div>
-  <div class="col-1"></div>
-  <div class="col-1"></div>
-  <div class="col-1"></div>
-  <div class="col-2"></div>
-  <div class="col-2"></div>
-  <div class="col-2"></div>
-  <div class="col-2"></div>
-  <div class="col-2"></div>
+    <!--<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="/">Our Logo</a>
+</nav>-->
+    <div class="jumbotron">
+      <h1>
+        MSS Inventory
+        <p><a id="homebutton" class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+      </h1>
     </div>
-    <div class="wrap1">
-      <div id="news" >
-      <p>
-        Company Bulletin Board
-        <ol>
-          <li>September 21, 2018<p style="text-align:left">
-            This is the first company update
-            </p></li>
-      </ol>
-      </p>
-    </div>
-  <div id="homepage">
-    <p>
-      This item should be inline with the bulletin board
-    </p>
-    </div>
-    </div>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <div class="panel panel-default">
+  <div class="panel-body">
+    Example Text
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>

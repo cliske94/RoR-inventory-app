@@ -1,2 +1,36 @@
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  color:blue;
+  font-size:3em;
+  font-weight:bold;
+  background-color:#d8f70c;
+  border-radius:25%;
+}
+
+.panel-body {
+  text-align:center;
+  font-size:2em;
+  background-color:lightgreen;
+  
+}
+//#navItems:hover {
+//  background-color:#adafa0;
+//}
+
+.nav-link:hover {
+  background-color:#adafa0;
+}
+
+#homebutton {
+  color:white;
+}
+
+.jumbotron {
+  text-align:center;
+}
+
+

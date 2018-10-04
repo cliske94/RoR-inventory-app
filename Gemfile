@@ -7,7 +7,7 @@ ruby "2.4.4"
 gem 'pg', '0.20.0'
 
 
-
+gem 'popper_js'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.7'
