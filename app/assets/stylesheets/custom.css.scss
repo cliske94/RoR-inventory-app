@@ -26,11 +26,56 @@
 }
 
 #homebutton {
-  color:white;
+  color:black;
+  background-color:red;
+  
+}
+
+#homebutton:hover {
+  background-color:yellow;
+  
 }
 
 .jumbotron {
   text-align:center;
+  background-image:asset-url("charlotte.png");
+  background-size:cover;
+  height:650px;
+}
+
+.jumbotron h1 {
+  color:blue;
+  
+}
+
+footer {
+  text-align:center;
+  border-top:1px solid #eaeaea;
+  margin-top:5px;
+  padding-top:10px;
+  
+}
+
+footer ul {
+  float:right;
+  
+}
+
+footer li {
+  color:red;
+  margin-left:35%;
+  margin-right:35%;
+  float:left;
+}
+
+footer li:hover {
+  background-color:yellow;
+  border-radius:50%
+}
+
+footer small {
+  font-size:1.2em;
+  font-weight:bold;
 }
 
 
