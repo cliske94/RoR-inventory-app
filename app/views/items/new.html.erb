@@ -10,8 +10,10 @@
 
     <!--<title>Hello, world!</title>-->
   </head>
-<h1>New Item</h1>
+<h1 id="form_head">New Item</h1>
 
 <%= render 'form' %>
+<div class="col-xs-4 col-xs-offset-4">
+  [ <%= link_to 'Cancel Request and Return to Inventory Listing', items_path %> ] 
+</div>
 
-<%= link_to 'Back', items_path %>

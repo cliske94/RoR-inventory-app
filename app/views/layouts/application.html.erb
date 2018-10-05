@@ -7,15 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<% flash.each do |name, msg| %>
+  <%= render 'layouts/navigation' %>
+  <% flash.each do |name, msg| %>
   <ul>
     <li><%= msg %></li>
    
   </ul>
  <% end %>
-  <%= render 'layouts/navigation' %>
+  
   <div class="container">
- <%= yield %>   
+    <%= yield %>   
   </div>
   <div class="container">
     <footer class="footer">
@@ -24,8 +25,8 @@
       </small>
       <nav>
         <ul style="list-style:none">
-          <li><%= link_to "about", "about" %></li>
-          <li><%= link_to "show listings", "items" %></li>
+          <li><%= link_to "Documentation", "about" %></li>
+          <li><%= link_to "Show Inventory", "/items" %></li>
         </ul>
       </nav>
     </footer>
