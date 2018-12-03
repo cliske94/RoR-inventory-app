@@ -23,7 +23,7 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
   get 'tools/inventory', to: 'tools#inventory'
- 
+  get 'editItems', to: 'pages#editItems'
   
   
   # Example resource route with options:

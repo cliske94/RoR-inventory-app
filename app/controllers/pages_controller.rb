@@ -4,6 +4,9 @@ class PagesController < ApplicationController
     
   end
   
+  def editItems
+  end
+  
   def about
     
   end

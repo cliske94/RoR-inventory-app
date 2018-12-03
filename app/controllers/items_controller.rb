@@ -20,6 +20,8 @@ class ItemsController < ApplicationController
   # GET /items/1/edit
   def edit
   end
+  
+ 
 
   # POST /items
   # POST /items.json
@@ -28,7 +30,7 @@ class ItemsController < ApplicationController
 
     respond_to do |format|
       if @item.save
-        flash[:notice] = "Item was successfully saved"
+        flash[:success] = "Item was successfully saved"
         format.html { redirect_to @item, notice: 'Item was successfully created.' }
         format.json { render :show, status: :created, location: @item }
       else
@@ -57,10 +59,12 @@ class ItemsController < ApplicationController
   def destroy
     @item.destroy
     respond_to do |format|
-      format.html { redirect_to items_url, notice: 'Item was successfully destroyed.' }
+      flash[:danger] = "Item was successfully deleted"
+        format.html { redirect_to items_url }
       format.json { head :no_content }
     end
   end
+  
 
   private
     # Use callbacks to share common setup or constraints between actions.
