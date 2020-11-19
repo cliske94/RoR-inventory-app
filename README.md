@@ -1,1 +1,1 @@
-<h1>Unmaintained CRUD application built with Ruby on Rails</h1>
+<h1>Unmaintained CRUD application built with Ruby on Rails and JS</h1>
