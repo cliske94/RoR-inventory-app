@@ -1,1 +1,1 @@
-This is the repository for the first homework application for a udemy ruby on rails course
+<h1>Unmaintained CRUD application built with Ruby on Rails</h1>
